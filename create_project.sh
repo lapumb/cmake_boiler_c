@@ -232,7 +232,6 @@ list(APPEND EXTRA_C_FLAGS_LIST
     -Wdeprecated-declarations
     -Wunused-parameter
     -Wsign-compare
-    -Wold-style-declaration
 
     # Stop on first error
     -Wfatal-errors
@@ -251,7 +250,6 @@ list(APPEND EXTRA_C_FLAGS_LIST
     -Wunreachable-code
     -Wformat=2
     -Winit-self
-    -Wformat-truncation
 )
 target_compile_options(\${PROJECT_NAME} PRIVATE \${EXTRA_C_FLAGS_LIST})"""
     echo "$CMAKE_EXTRA_FLAGS" > "$TOOLS_DIR/cmake/extra_warnings.cmake"
