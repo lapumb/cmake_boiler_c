@@ -148,7 +148,6 @@ void ${PROJECT_NAME}_hello_world(void);"""
 #include <dummy.h>
 
 #include <stdio.h>
-#include <stdio.h>
 
 void ${PROJECT_NAME}_hello_world(void) {
     dummy_function();
